@@ -1,0 +1,26 @@
+{
+  "tenantId": "4dfac523-88cd-446e-9c03-322abecd700b",
+  "repoMode": "monorepo",
+  "repoUrl": null,
+  "components": [
+    {
+      "slug": "teamboardapi",
+      "type": "api-application-server",
+      "path": "packages/teamboardapi/"
+    },
+    {
+      "slug": "teamboardui",
+      "type": "frontend-ui",
+      "path": "packages/teamboardui/"
+    }
+  ],
+  "secrets": [
+    {
+      "component": "teamboardapi",
+      "name": "RESEND_API_KEY",
+      "purpose": "Send team invitation links and account emails",
+      "sourceUrl": "https://resend.com/api-keys",
+      "required": true
+    }
+  ]
+}
