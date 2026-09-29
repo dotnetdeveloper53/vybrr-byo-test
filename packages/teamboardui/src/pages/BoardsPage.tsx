@@ -65,7 +65,7 @@ export function BoardsPage() {
   return (
     <div className="page">
       <header className="page-header">
-        <h1>Boards</h1>
+        <h1>Team Board — BYO test</h1>
       </header>
       {error !== null && <p role="alert">{error}</p>}
       <section className="card">
