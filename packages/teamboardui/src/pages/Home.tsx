@@ -4,6 +4,7 @@ export function Home() {
       <header className="page-header">
         <div>
           <h1>Welcome to my web app</h1>
+          <p>Built with Vybrr</p>
           <p>Your app is ready to build on.</p>
         </div>
       </header>
