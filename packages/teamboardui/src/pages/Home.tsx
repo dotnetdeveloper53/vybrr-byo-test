@@ -3,7 +3,7 @@ export function Home() {
     <div className="page">
       <header className="page-header">
         <div>
-          <h1>Welcome</h1>
+          <h1>Welcome to my web app</h1>
           <p>Your app is ready to build on.</p>
         </div>
       </header>
